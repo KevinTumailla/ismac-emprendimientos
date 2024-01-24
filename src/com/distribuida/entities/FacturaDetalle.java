@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 @Entity
 @Table(name = "factura_detalles")
 public class FacturaDetalle {
-///
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_factura")
