@@ -1,10 +1,19 @@
 package com.distribuida.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@Entity
+@Table(name="Usuario")
 public class Usuario {
 	  private Long id;
+	  
 	    private String nombre;
 	    private String correo;
-	    
+	
 		public Long getId() {
 			return id;
 		}
